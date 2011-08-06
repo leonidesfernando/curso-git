@@ -10,6 +10,13 @@ class Pessoa
   end
 
 	def diga_ola
-  	puts "Olá #{nome} #{sobrenome} !"
+    if idade < 2
+      puts "seu bebe"
+    else
+    	puts "Olá #{full_name} !"
+  end
+
+  def full_name
+    "#{@nome} #{sobrenome}"
   end
 end
