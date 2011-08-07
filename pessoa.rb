@@ -13,7 +13,7 @@ class Pessoa
     if idade < 2
       puts "seu bebe"
     else
-    	puts "Olá #{full_name} !"
+    	puts "Olá #{full_name} você é #{@sexo} !"
   end
 
   def full_name
